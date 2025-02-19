@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to right, #d32189, #038c5a, #d9e311, #03A63C, #e734be);
+    background-attachment: fixed;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #3710e6;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'ital', serif;
+    font-size: xx-large;
+    font-style: italic;
+    
+    
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #5404bc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-image: linear-gradient(to right, #d32189, #038c5a, #1111e3, #03A63C, #e734be);
+}
+
+button:hover {
+    background-color: #b6fa16;
+}
+
+.heart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #7f0cb9;
+    background-image: linear-gradient(to right, #21c1d3, #038c5a, #eb0a0a, #4107c9, #e7343d);
+    transform: translate(-50%, -50%) rotate(50deg);
+    animation: heartbeat 1.5s infinite;
+}
+
+.heart::before,
+.heart::after {
+    content: 'I LOVE YOU';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #fa1317;
+    border-radius: 50%;
+}
+
+.heart::before {
+    top: -50px;
+    left: 0;
+}
+
+.heart::after {
+    top: 0;
+    left: -50px;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: translate(-50%, -50%) rotate(45deg) scale(1);
+    }
+    50% {
+        transform: translate(-50%, -50%) rotate(45deg) scale(1.1);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(45deg) scale(1);
+    }
+}
+
+.hidden {
+    display: none;
+}

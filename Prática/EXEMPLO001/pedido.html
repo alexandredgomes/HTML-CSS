@@ -1,0 +1,77 @@
+
+
+
+
+
+
+
+
+
+
+<html>
+    <head>
+        <style>
+            html, body {
+                height: 100%;
+            }
+            * {
+               box-sizing: border-box;
+               margin: 0;
+               padding: 0;
+            }
+            body {
+                background-color: #FF4747;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            p {
+                color: white;
+                front-family: 'Courier New', Courier, monospace;
+                front-size: 27px;
+                front-weight: 600;
+                max-width: 400px;
+                text-align: center;
+                word-wrap: break-word;
+            }
+            button {
+               width: 260px;
+               padding: 10px;
+               margin-top: 20px;
+               front-size: 28px;
+               background-color: white;
+               border-radius: 15px;
+               border: 4px solid rgb(200, 8,8);
+               cursor: pointer;
+            }
+            button:hover {
+                background-color: rgb(255, 239, 239);
+            }
+            button:active {
+                background-color: rgb(255, 113, 113);
+                border-color: #ffd2d2;
+                color: white;
+            }
+        </style>
+    </head>
+    
+    <body>
+      <p id="text">Já faz um tempo que queria te falar isso... </br> Você aceita?</p>
+    <audio id="audio" src="https://www.myinstants.com//media/sounds/olha-o-porcoo-estourado.mp3"
+    preload="auto" controls></audio>
+    <button id="playButton" onclick="olhoOPorco()">Clique aqui ❤️</button>     
+    </body>
+<script>
+            var audio = document.getElementById('audio');
+            var playButton = document.getElementById('playButton');
+            var text = document.getElementById("text");
+    
+            function olhaOPorco() {
+                audio.play();
+text.textContent = "É PEGADINHA PO KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK"; 
+                playButton.style.display = "none";
+            }
+        </script>
+    
+</html>

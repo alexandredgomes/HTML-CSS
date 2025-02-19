@@ -1,0 +1,103 @@
+/* Exemplo de estilo para o layout sugerido */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0A192F;
+    color: #033d94;
+    text-align: justify;
+}
+
+header {
+    background-color: #0A192F;
+    color: #f0f0f0;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #f4f4f4;
+}
+
+nav {  
+    list-style: none;
+    padding: 15px;
+    padding-bottom: 5px;
+    text-align: start;
+    word-spacing: 8px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: aqua;
+    background-color: #043072;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+img {
+    height: 400px;
+    width: 1000px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    background-color: #f4f4f4;
+    
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+section h1 {
+    background-image: linear-gradient(to right,  rgb(254, 254, 255), rgba(177, 163, 163, 0.763), rgba(182, 208, 218, 0.718), transparent);
+    color: #0A192F;
+    font-family: Bebas, Neue, family;
+    font-weight: bold;
+    font-size: 40px;
+   
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: aqua;
+    background-color: #043072;
+    padding: 5px;
+    border-radius: 10px;
+}

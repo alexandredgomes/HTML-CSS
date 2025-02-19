@@ -1,0 +1,150 @@
+@import url(fontes/idroid.otf);
+
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(90, 234, 224);
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+}
+
+header {
+    background-color: rgb(38, 109, 38);
+    padding: 1px;
+    margin: 0px;
+    font-family: idroid;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 0%;
+}
+
+header > menu {
+    font-weight: 500;
+    align-items: start;
+    text-align: start;
+    color: white;
+    text-decoration: none;
+}
+
+header > menu:hover {
+    background-color: rgb(4, 136, 33);
+}
+
+a {
+    color: white;
+    text-decoration: none;  
+    margin-right: 20px; 
+}
+
+a:hover {
+    color: rgb(118, 23, 178);
+}
+
+p>a {
+    color: rgb(4, 136, 33);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+main {
+    margin: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: white;
+    padding: 0px;
+}
+
+
+#historia h2 {
+    color: rgb(3, 183, 3);
+    font-family: 'idroid' 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    padding: 5px;
+    margin: 0;
+}
+
+#historia p {
+    color: #000000;
+    text-indent: 5%;
+    margin: 2%;
+    text-align: justify;
+} 
+
+#historia h3 {
+    background-color: rgba(73, 239, 159, 0.871);
+    color: rgb(7, 198, 7);
+    font-family: 'idroid' 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    padding: 5px;
+    margin: 5px;
+}
+
+span {
+    color: rgb(2, 144, 2);
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+video {
+    background-color: green;  
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+
+#extra {
+    background-color: rgb(146, 213, 195);
+    margin: 10px;
+    padding: 0px;
+    border: 10px;
+    border-radius: 10px 10px;
+}
+
+#ideia {
+    background-color: white;
+    border: 10px;
+    border-radius: 10px;
+}
+
+h4 {
+    background-color: rgb(16, 163, 5); 
+    color: white;
+    font-weight: bold;
+    padding: 0px;
+    text-align: 5px;
+    border: 10px;
+    border-radius:  10px 10px 0px 0px;
+}
+
+ul {
+    list-style-type: "✅";
+    list-style-position: inside;
+    color: black;
+    margin: 0px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+footer {
+    background-color: rgb(18, 120, 18);
+    text-align: center;
+    color: white;
+    padding: 1px;
+    margin: 0px;
+    align-items: center;
+}
+
+ footer p {
+    margin: 0px;
+    align-items: center;
+ }
