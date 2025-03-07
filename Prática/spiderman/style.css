@@ -1,0 +1,24 @@
+.card {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s;
+    display: grid;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-content {
+    display: none;
+    padding: 10px;
+}
+.card.active .card-content {
+    display: block;
+}
+.card.active img {
+    display: none;
+}
