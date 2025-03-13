@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #0a0a0a;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    margin: 0px auto;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #655e5e0c;
+}
+
+thead, tfoot {
+    background-color: #494848;
+    color: white;
+}
+
+td.num {
+    text-align: right;
+}
+
+td.regiao {
+    background-color: #ed0606;
+}
+
+td#amarelo {
+    background-color: #ffff00;
+}
+
+td#verde {
+    background-color: #00ff00;
+}

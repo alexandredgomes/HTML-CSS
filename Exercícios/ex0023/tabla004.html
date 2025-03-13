@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td, th {
+            background-color: #f2f2f2;
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercícios de Tabelas</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <tfoot>
+            <tr>
+                <td colspan="5">Fim da Tabela</td>
+            </tr>
+        </tfoot>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Maria de Souza</td>
+                <td>Hulk</td>
+                <td>Incaption</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Joana Pereira</td>
+                <td>Superman</td>
+                <td>Homem de Ferro</td>
+                <td>Thor</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Homens</th>
+                <td>João da Silva</td>
+                <td>Homem Aranha</td>
+                <td>Capitão América</td>
+                <td>Homem de Ferro</td>
+            </tr>
+            <tr>
+                <td>Carlos de Almeida</td>
+                <td>Thor</td>
+                <td>Superman</td>
+                <td>Homem Aranha</td>
+            </tr>
+            <tr>
+                <td>Antônio Pereira</td>
+                <td>Capitão América</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+        </tbody>
+    </table>
+</body>
+</html>
