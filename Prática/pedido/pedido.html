@@ -1,63 +1,17 @@
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <style>
-        html, body {
-            height: 100%;
-        }
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        body {
-            background-color: #FF4747;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-        p {
-            color: white;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 27px;
-            font-weight: 600;
-            max-width: 400px;
-            text-align: center;
-            word-wrap: break-word;
-        }
-        button {
-            width: 260px;
-            padding: 10px;
-            margin-top: 20px;
-            font-size: 28px;
-            background-color: white;
-            border-radius: 15px;
-            border: 4px solid rgb(200, 8, 8);
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: rgb(255, 239, 239);
-        }
-        button:active {
-            background-color: rgb(255, 113, 113);
-            border-color: #ffd2d2;
-            color: white;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Amor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p id="text">Já faz um tempo que queria te falar isso... <br> Você aceita?</p>
-    <button id="playButton" onclick="olhaOPorco()">Clique aqui ❤️</button>
-    <audio id="audio" src="https://www.myinstants.com//media/sounds/olha-o-porcoo-estourado.mp3" preload="auto"></audio>
+    <div>
+        <p id="text">Já faz um tempo que queria te falar isso... <br> Você aceita?</p>
+        <button id="playButton" onclick="olhaOPorco()">Clique aqui ❤️</button>
+        <audio id="audio" src="https://www.myinstants.com//media/sounds/olha-o-porcoo-estourado.mp3" preload="auto"></audio>
+    </div>
 </body>
 <script>
     var audio = document.getElementById('audio');
