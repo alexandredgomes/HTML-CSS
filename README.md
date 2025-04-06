@@ -14,7 +14,7 @@ Este repositório contém o material do curso de HTML5 e CSS3 oferecido pelo Cur
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/2004-15-09/HTML-CSS.git
+    git clone https://github.com/alexandredgomes/HTML-CSS.git
     ```
 2. Navegue até o diretório desejado:
     ```bash
